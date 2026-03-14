@@ -139,3 +139,4 @@ AND YEAR(a.dataHoraRetirada) = 2024
 GROUP BY e.idEquipamento, e.nomeEquipamento
 HAVING COUNT(ae.idAluguel) < 5
 ORDER BY qtdAlugueis DESC;
+
